@@ -1,0 +1,162 @@
+# Platform-specific folders
+/android/
+/ios/
+/web/
+
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+*.lock
+*.iml
+
+# IDE specific
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Platform specific
+## Android
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/gradle/
+/android/.gradle
+/android/local.properties
+/android/**/GeneratedPluginRegistrant.*
+
+## iOS
+/ios/Flutter/.last_build_id
+/ios/Flutter/Debug.xcconfig
+/ios/Flutter/Release.xcconfig
+/ios/.symlinks/
+/ios/Pods/
+/ios/Runner.xcworkspace
+
+## Windows
+/windows/flutter/
+/windows/ephemeral/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Generated files
+*.pyc
+*.swp
+.DS_Store
+.history/
+node_modules/
+
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.lock
+*.iml
+
+# Android specific
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/gradle/
+/android/.gradle
+/android/local.properties
+/android/**/GeneratedPluginRegistrant.*
+
+# iOS specific
+/ios/Flutter/.last_build_id
+/ios/Flutter/Debug.xcconfig
+/ios/Flutter/Release.xcconfig
+/ios/.symlinks/
+/ios/Pods/
+/ios/Runner.xcworkspace
+
+# Windows specific
+/windows/flutter/
+/windows/ephemeral/
+
+# VS Code specific
+.vscode/
+.idea/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Dependencies
+pubspec.lock
+/ios/Pods/
+/ios/Podfile.lock
+/macos/Pods/
+/macos/Podfile.lock
+.packages
+/windows/flutter/ephemeral/
+/linux/flutter/ephemeral/
+/android/.gradle/
+/android/app/build/
+/android/gradle/
+/android/gradlew
+/android/gradlew.bat
+/android/local.properties
+/android/key.properties
+
+# Generated files
+**/generated_plugin_registrant.*
+**/generated_plugins.cmake
+
+# Node.js dependencies
+node_modules/
+package-lock.json
